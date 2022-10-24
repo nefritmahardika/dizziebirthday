@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1100px) {
+
+    
+    .landing-image img{
+        width: 300px;
+        height: auto;
+    }
+    .label{
+        display: flex;
+    }
+    nav ul li a{
+        font-size:15px;
+        margin: 5px;
+        color: var(--text-color);
+    }
+    .cover img{
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin: 0;
+      }
+    nav ul li a:hover{
+        color: #bebebe;
+        
+    }
+
+    .landing{
+        flex-direction: column-reverse;
+    }
+    .title{
+        text-align: center;
+        width: 70%;
+    }
+    .title h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .social ul,li {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+      .landing-image {
+          height: 200px;
+          width: 200px;
+      }
+      .landing-image img{
+          height: 200px;
+          width: auto;
+      }
+      .post{
+          font-size: 70%;
+      }
+      .cover img{
+        width: 80%;
+        align-items: center;
+        height: auto;
+        margin: 0;
+      }
+      .post, .more{
+          width: 90%;
+      }
+      .blog-post{
+          width: 70%;
+      }
+      iframe{
+        width: 100%;
+        height: 200px;
+    }
+    .ambition-cover img{
+        width: 90%;
+    }
+    .backward a{
+        left: 0px;
+    }
+  }
